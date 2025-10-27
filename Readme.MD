@@ -16,7 +16,7 @@
         description: nginx helm chart description
         appVersion: 1.0.1 # application version
 
-      This chart.yaml will contains the details for which application we are writing the helm chart
+      This chart.yaml will contain the details for which application we are writing the helm chart
       In this case we are writing the helm chart for Nginx application
 
     -- Templates
