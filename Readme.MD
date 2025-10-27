@@ -1,4 +1,4 @@
-#### This repo is useful to understand about the Helm
+### This repo is useful to understand about the Helm
 
 #### Steps to install helm on our worker machine
 
@@ -6,4 +6,3 @@
     $ chmod 700 get_helm.sh
     $ ./get_helm.sh
 
-    
