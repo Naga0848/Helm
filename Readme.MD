@@ -35,3 +35,10 @@
         In service.yaml file in templates folder we have used placeholder for the targetPort and we are reffering the value from Values.yaml and similarly from deployment.yaml in templates folder, we have used placeholder for replicas and imageVersion whose value will be referred from Values.yaml
 
 
+#### Basic Helm Commands
+
+    helm install nginx . --> . represents current directory
+    helm upgrade nginx . --> updates to latest version
+    helm list --> list all helm apps running
+
+    helm status nginx 
