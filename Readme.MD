@@ -6,7 +6,7 @@
     $ chmod 700 get_helm.sh
     $ ./get_helm.sh
 
-#### understanding how helm functions
+#### understanding how helm functionalities
 
     -- chart.yaml
 
@@ -34,4 +34,4 @@
         These are the values for which we created the placeholders in the templates
         In service.yaml file in templates folder we have used placeholder for the targetPort and we are reffering the value from Values.yaml and similarly from deployment.yaml in templates folder, we have used placeholder for replicas and imageVersion whose value will be referred from Values.yaml
 
-        
+
