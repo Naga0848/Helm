@@ -63,3 +63,5 @@
         helm upgrade --install aws-ebs-csi-driver \
         --namespace kube-system \
         aws-ebs-csi-driver/aws-ebs-csi-driver
+
+    Note:- Donot forget to add the EBS Policy at the SG of the nodes which we are using in our cluster as we are creating the EBS dynamically
