@@ -1,5 +1,7 @@
 ## This repo is useful to understand about the Helm
 
+    https://helm.sh/docs/intro/install/    >>>> Doc related to Helm
+
 #### Steps to install helm on our worker machine
 
     $ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
